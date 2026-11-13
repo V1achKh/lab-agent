@@ -1,0 +1,7 @@
+# Образ песочницы для кода, который пишет модель.
+# Сборка: python -m labagent sandbox build   (или: podman build -t lab-sandbox sandbox/)
+FROM docker.io/library/python:3.13-slim
+RUN pip install --no-cache-dir numpy scipy matplotlib pydantic \
+ && useradd -m -u 1000 runner
+USER runner
+WORKDIR /work

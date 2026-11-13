@@ -1,0 +1,8 @@
+mcp>=1.10            # работает и с 1.x, и с 2.x
+numpy>=1.26
+matplotlib>=3.8
+python-docx>=1.1
+pypdf>=4.0
+pydantic>=2.6
+pillow>=10.0
+pypdfium2>=4.20         # страницы PDF задания → картинки для модели

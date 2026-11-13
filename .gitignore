@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+runs/
+results/
+logs/
+data/index/
+
+# модели
+models/**/*.gguf
+
+# методички, варианты, документы
+tasks/lab*/
+tasks/manuals/
+*.pdf
+*.docx
+examples/
